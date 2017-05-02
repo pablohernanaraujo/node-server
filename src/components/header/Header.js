@@ -1,12 +1,10 @@
 import React from 'react'
-import { Title } from '../styled/header'
+import FravegaLogoIcon from '../styled/icons/icon-fravega-logo'
 
 class Header extends React.Component {
   render () {
-    const { props } = this
-
     return (
-      <Title {...props}>{props.title}</Title>
+      <FravegaLogoIcon />
     )
   }
 }
